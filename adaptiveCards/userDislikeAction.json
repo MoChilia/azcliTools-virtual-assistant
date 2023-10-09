@@ -1,0 +1,25 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "Would you like to try rephrasing your question or find help from the team?",
+        "wrap": true
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.Execute",
+        "title": "Rephrase",
+        "verb": "rephrase"
+      },
+      {
+        "type": "Action.Execute",
+        "title": "Find Support",
+        "verb": "findSupport"
+      }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.4"
+  }
+  

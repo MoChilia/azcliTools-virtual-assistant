@@ -1,0 +1,31 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+      {
+        "type": "TextBlock",
+        "size": "Medium",
+        "weight": "Bolder",
+        "text": "Find Support"
+      },
+      {
+        "type": "TextBlock",
+        "text": "You can open an issue on GitHub or ask a question in the Teams channel.",
+        "wrap": true
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.OpenUrl",
+        "title": "Report issue",
+        "url": "https://github.com/Azure/azure-cli/issues/new/choose"
+        },
+        {
+        "type": "Action.OpenUrl",
+        "title": "Teams Channel",
+        "url": "https://teams.microsoft.com/l/channel/19%3a31160a5ec7e24ba0b9d58a5e812c43dd%40thread.tacv2/Azure%2520CLI?groupId=9a661795-1b01-4a5b-9dd5-be571422334c&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47"
+      }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.4"
+  }
+  

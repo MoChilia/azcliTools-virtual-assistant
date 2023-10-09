@@ -1,0 +1,30 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Feedback"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Were you able to get the information you needed today?",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "Yes",
+      "verb": "userlike"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "No",
+      "verb": "userDislike"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

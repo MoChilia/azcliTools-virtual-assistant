@@ -1,0 +1,30 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Welcome to use Azure CLI Virtual Assistant"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Hi! I am the Azure CLI Virtual Assistant for CodeGen. I can help you with the Azure CLI CodeGen related topics. Go ahead and type your question in the chat. How can I help you today?",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "GitHub Repo",
+      "url": "https://github.com/Azure/aaz-dev-tools"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Reference Documents",
+      "url": "https://azure.github.io/aaz-dev-tools/"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}
